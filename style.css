@@ -1,0 +1,23 @@
+body { background: whitesmoke; }
+
+.main 
+{
+    position: absolute;
+    height: 80%; 
+    width: 80%; 
+    top: 10%; 
+    left: 10%; 
+    background: gainsboro;
+    outline: 2px groove;
+}
+
+.draggable
+{
+    position: sticky;
+    width: 100px;
+    height: 100px;
+    background: red;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    user-select: none;
+    cursor:move;
+}
